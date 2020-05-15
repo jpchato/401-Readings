@@ -13,3 +13,15 @@
  * use print() to print out the nodes
  
 ## What’s a Linked List, Anyway? [Part 1]
+* We use data structures to organize our data. Variables, arrays, and objects are all types of data structures
+* Linked lists are linear data structures(hop-scotch). Needs to be traversed sequentially in order. Order matters@!
+* Memory management is a big difference between arrays and linked lists. 
+* Memory allocation for linked lists can be scattered. Contrary to arrays which need a contiguous allocation of memory. 
+* Linked lists are dynamic data strucutres. Contrary to arrays which are static data structures. 
+* Linked lists are made up of nodes. The starting point of a linked list is refered to as the head. The final node isn't a node exactly, but a node that points to a null value. 
+* Nodes have two parts: data and a reference to the next node. 
+* Singly linked lists have a single track we can traverse it with. Can only go from head node to final (null) node
+* Doubly linked lists refer to previous and next nodes. 
+* Circular linked list does not end with a node pointing to a null value. 
+ * useful for adding things to the list
+ 

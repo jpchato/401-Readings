@@ -25,3 +25,14 @@
 * Circular linked list does not end with a node pointing to a null value. 
  * useful for adding things to the list
  
+## What’s a Linked List, Anyway? [Part 2]
+* Big O notation is a way of evaluating the performance of an algorithm
+ * How much time it requires at runtime and how much space it needs
+* O(1)
+ * Constant time. Always takes the same amount of memory and time to process
+* O(n)
+ * Linear. As our output grows, our space/time requirements also grow linearly.
+* O(n^2)
+ * Exponential. Avoid. As our output grows, our space/time requirements grow exponentially.
+* Rearrange our pointers to grow a linked list. 
+* a linked list is usefulfor adding and removing  elements, but is slow for searching and finding elements.

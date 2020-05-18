@@ -1,4 +1,44 @@
 # 401-Readings
+
+## How to Use Random Module
+* The random module provides access to functions that support various operations, including the generation of random numbers
+* randinit generates a random integer based on two parameters: a low and a high number
+* To generate a larger number, multiply it
+* random.choice([x, y, z]) generates a random value from a sequence
+* random.shuffle() shuffles elements in a list
+* random.randrange(start, stop[, step]) generates a random element from the range
+* [Reference!](https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
+
+## What is Dependency Injection
+* Transferring the task of creating the object to something else and directly using the dependency
+* DI can be thought of as the middle man. Dependencies can be injected at run time as opposed to compile time
+* 3 Types of Dependency Injection:
+ 1. constructor injection - dependencies provided through a class constructor
+ 1. setter injection - setter method that the injector uses to set the dependency
+ 1. interface injection - ??? 
+* Classes should concentrate on fulfilling their responsibilities, not on creating objects required to meet those responsibilities.
+* DI Benefits
+ * Helps unit testing
+ * Reduces boiler plate coede
+ * Extending the app becomes easier
+ * enables loose coupling (idk what this means)
+* DI Flaws
+ * Complex to learn and can cause problems if overused
+ * Compile errors become run time errors
+* [Reference!](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/)
+
+## Big O Notation
+* Pigeon is constant time O(1) :smile:
+* Constant time beats linear if sufficiently large
+* Big O describes how the run time scales with input variables
+* 4 Big O Rules
+ 1. Different steps get added
+ 1. Drop constants
+ 1. Different inputs require different variables to represent them
+ 1. Drop non-dominant terms
+* [Reference!](https://www.youtube.com/watch?v=v4cd1O4zkGw)
+
+
 ## Linked Lists
 * A linked list is a sequence of nodes that are connected to each other. Each node references the next node in the list.
 * Two types of linked lists: singly and doubly

@@ -1,5 +1,19 @@
 # 401-Readings
 
+## Python Scope - Global and Local Keywords
+* Global scope - Variables available to all the code
+* Local scope - Variables only available within a code block
+* If you can access a variable it is `in scope` if you can't it is `out of scope`
+* global statement
+ * defines a list of names that are going to be treated as global names
+ * Generally speaking, bad practive to use the global statement
+* nonlocal statement
+ * defines a list of names that are going to be treated as nonlocal
+* Scope defines visibility throughout code
+
+## Don't be CONFUSED by BIG O notation anymore!
+* 
+
 ## How to Use Random Module
 * The random module provides access to functions that support various operations, including the generation of random numbers
 * randinit generates a random integer based on two parameters: a low and a high number

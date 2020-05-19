@@ -12,7 +12,19 @@
 * Scope defines visibility throughout code
 
 ## Don't be CONFUSED by BIG O notation anymore!
-* 
+* A measure of how long an algorithm takes to do something. 
+* Time complexity-time reqired
+* Space complexity-space required
+* A way of measuring how an algorithm will respond to an increasing amount of data that it will have to process
+* Big O notation will usually give you the worst case scenario
+  * You don't want to know the best case scenario
+* Different levels of complexity
+* O(1) - constant running time
+* O(log n) - logarithmic running time
+* O(n) - linear running time
+* O(n logn) - Log-linear running time
+* O(n^k) - Polynomial running time
+
 
 ## How to Use Random Module
 * The random module provides access to functions that support various operations, including the generation of random numbers

@@ -1,5 +1,16 @@
 # 401-Readings
 
+## List Comprehensions
+* A concise way to create lists
+* List comprehension always returns a list
+* `new_list = [expression(i) for i in old_list if filter(i)]`
+* Create a new list from a list you iterate through
+
+## Primer on Generators
+* a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
+* Functions are first-class arguments in python --- that means functions can be passed around and used as arguments
+* Functions defind in other functions are called in inner functions
+
 ## Python Scope - Global and Local Keywords
 * Global scope - Variables available to all the code
 * Local scope - Variables only available within a code block

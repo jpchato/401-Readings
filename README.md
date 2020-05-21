@@ -1,5 +1,28 @@
 # 401-Readings
 
+## Statistics in Python
+* Probability - "What is the chance of an event happening?"
+  * An event is defined as an outcome of interest
+* sample space - the set of all possible events that can happen
+  * an example would be a coin flip where it can land on heads or tails
+* normal distribution refers to a phenomenon in tprobability and statistics with a unique symmetry and shape
+* Central Limit Theorem
+  * Peak of normal distribution lines up with the mean
+* Three Sigma Rule
+  * How many observations fall within a certain distance of the mean
+  * 68% of your observations will fall within 1 stdev of the mean
+  * rarity of extreme values
+* Z-score
+  * How many stdev from the mean for a given data point?
+  * When compared against it a z-table it provides cumulative probability
+    * cumulative probability - the sum of the probabilities of all values occurring, up until a given point
+    
+## Intro to Statistics Video
+* Statistical features like bias, variance, and many others help us explore a dataset to gain valuable insights
+* Probability distributions define the percent chance that some event will occur, and we can use them to understand the spread of data
+* Bayesian statistics expresses probability as a degree of belief in an event which can change as new information is gathered rather than a fixed values based on frequency
+  
+
 ## List Comprehensions
 * A concise way to create lists
 * List comprehension always returns a list

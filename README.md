@@ -1,5 +1,32 @@
 # 401-Readings
 
+## Stacks and Queues
+* A stack is a data structure that consists of nodes. Each node references the next node in the stack but not the previosu (like a linked list???)
+* Terminology
+  * Push - nodes/items pushed to stack
+  * Pop - When you remove an item from the stack it is being popped. You cannot remove items from an empty stack because (an exception will be raised).
+  * Top - top of stack
+  * Peek - peeking will show the value from the top of the stack. Cannot peek an empty stack(exception will be raised)
+  * isEmpty - returns true when stack is empty
+* FILO - first in last out
+* LIFO - last in first out
+* Pushing a node into a stack is an O(1) operation
+* use isEmpty before doing a pop
+* use isEmpty before conducting a peek
+* Queue terminology
+  * enqueue - nodes or items that are added to the queue
+  * dequeue - nodes/items removed from queue
+  * front - front/first node of queue
+  * rear - rear/last node of queue
+  * peek - shows value of front of queue
+  * isEmpty - returns true when queue is empty
+* FIFO - first in first out - first item in queue will be first out
+  * opposite of stack
+* LILO - last in last out - last item in queue will be last out
+  * opposite of stack
+* 
+
+
 ## Statistics in Python
 * Probability - "What is the chance of an event happening?"
   * An event is defined as an outcome of interest

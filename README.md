@@ -1,5 +1,27 @@
 # 401-Readings
 
+## Data Science in a Nutshell
+* Attempting to make sense of data by identifying patterns and applying algorithms 
+* Unstructured data - Does not have a predefined data model
+* Structured data - mostly available in text formats from databases
+* Data analytics - processing data
+* raw data --> data visualization
+ * --> Human decision
+ * --> machine learning - identifying patterns in data
+ * --> AI - machine makes decisions on its own
+ 
+ ## Jupyterlab
+ * Work with data and code together
+ * Video goes into markdown syntax
+ * $ to create equations
+ * Allows the arranging of multiple different documents and activities in the same program
+ 
+ ## NumPy
+ * Data Analysis Package
+ * 
+
+
+
 ## Stacks and Queues
 * A stack is a data structure that consists of nodes. Each node references the next node in the stack but not the previosu (like a linked list???)
 * Terminology

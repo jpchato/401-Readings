@@ -1,5 +1,39 @@
 # 401-Readings
 
+## Pandas
+* Database management tool??
+* Object Creation
+* Viewing Data
+* Selection
+   * Getting
+   * Selection by label
+   * Selection by position
+   * Boolean indexing
+   * setting
+ * Missing Data
+ * Operations
+   * Stats
+   * Apply
+   * Histogramming
+   * String Methods
+ * Merge
+   * Concat
+   * Join
+ * Grouping
+ * Reshaping
+   * Stack
+   * Pivot Tables
+ * Time Series
+ * Categoricals
+ * Plotting
+ * Getting Data In/Out
+   * CSV
+   * HDF5
+   * Excel
+ 
+ * At a glance, seems very reminiscent of JMP
+   
+
 ## Data Science in a Nutshell
 * Attempting to make sense of data by identifying patterns and applying algorithms 
 * Unstructured data - Does not have a predefined data model

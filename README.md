@@ -1,5 +1,20 @@
 # 401-Readings
 
+## Linear Regressions
+* Import required libraries into python notebook
+* Convert data into dataframe using pandas
+* LinearRegression.
+* Regression searches for relationship among variables
+* Used when you need to determine if one variable influences another
+* R^2 --- strong relationship\
+* scikit-learn and statsmodels needed to implement linear regression
+* DO IT:
+    * Import the packages and classes you need
+    * Provide data to work with and eventually do appropriate transformations
+    * Create a regression model and fit it with existing data
+    * Check the results of model fitting to know whether the model is satisfactory
+    * Apply the model for predictions
+
 ## Pandas
 * Database management tool??
 * Object Creation

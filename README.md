@@ -1,4 +1,53 @@
 # 401-Readings
+## Trees
+### Common Terminology
+* Node - individual item/data that makes up data structure
+* root- first/top node in tree
+* left child - node positioned to the left of a root/node
+* right child - node positioned to the right of a root/node
+* edge - link between parent and child node
+* leaf - node that does not contain children
+* height - determined by number of edges from root to bottommost node
+### Traversals 
+* Traversing trees allows us to search for a node, and do things with the node
+* Two types of traversals:
+      * depth first
+      * Breadth first
+ #### Depth First
+ * Prioritizes going through the depth/height of the tree first.
+ * Multiple ways to carry out the traversal. Each method chnages the order i nwhich the root is searched/printed
+      * Three methods for traversal
+            * pre-order: root --> left ---> right
+            * in-order: left --> root --> right
+            * post-order: left --> right --> root
+            
+  ### Breadth First
+  * Goes through each level of the tree node-by-node
+  * Uses a queue to traverse the width/breadth of the tree
+  
+  ## Binary Trees
+  * Binary trees restrict the number of children to two
+  
+  ### Adding a Node
+  * It doesn't matter where new nodes get placed in a binary tree because there are no structural rules for where nodes are supposed to go
+  * Fill child spots from top --> down utilizing breadth first traversal
+  
+  ### Big O
+  * Time complexity for inserting a new node is O(n)
+  * Searching for a specific node is O(n)
+  * Worst case scenario is O(n) 
+  * Space complexity for node instertion is O(W) where is the largest width of the tree. 
+  
+  ## Binary Search Trees
+  * Structured tree where all values smaller than the root are placed to the left and values larger than the root are to the right
+  * Best way to approach bst is whit a while loop
+  
+  ### Big O
+  * O(h) where h is the height of the tree - time complexity
+  * O(1) - space complexity
+ 
+ 
+
 
 ## Linear Regressions
 * Import required libraries into python notebook

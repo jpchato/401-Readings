@@ -1,4 +1,19 @@
 # 401-Readings
+
+## Datavisualization
+### Matplot lib
+* Mostused python library for 2d graphics
+* simple plots, figures, subplots, axes, and ticks
+* animation
+* regular plot, scatter plot, bar plot, contour plot, imshow, quiver plot, piechart, grid, multiplot, polar axis, 3d plots, text
+
+### Bokeh
+* Interactive visualization library that targets modern web browsers
+* 
+
+
+
+
 ## Trees
 ### Common Terminology
 * Node - individual item/data that makes up data structure

@@ -1,6 +1,6 @@
 # 401-Readings
 
-## Datavisualization
+## Data visualization
 ### Matplot lib
 * Mostused python library for 2d graphics
 * simple plots, figures, subplots, axes, and ticks

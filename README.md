@@ -1,5 +1,18 @@
 # 401-Readings
 
+## How to Web Scrape with Python
+* automatically access and extract a large amount of data from a website
+* Important notes
+     * most websites prevent the use of their data for commercial purposes
+     * don't download too much -- you might crash the website
+* need to be familiar with html for web scraping to work
+     * identify where in the html the files you want are located
+## Web Scraping Wiki
+* extracting data from websites
+* legal issues
+* some websites prevent web scraping, so sophisticated bots are developed to counter the counter-measures
+
+
 ## Data visualization
 ### Matplot lib
 * Mostused python library for 2d graphics

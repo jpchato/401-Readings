@@ -1,5 +1,33 @@
 # 401-Readings
 
+## Caesar Cipher
+* simple and widely known encryption technique
+* letter is shifted 3 to the left
+    * a --> x
+* deciphering is done in reverse with a right shift of 3
+    * x --> a
+    
+## Cryptography Video
+* defense in depth
+    * various layers of defense
+* cryptography
+* secret writing
+* cipher - an algorithm that turns plain text into cipher text
+* encryption and decryption
+* Caesar cipher is an example of substituion cipher which replaces every letter ina message wtih something else according to a translation
+* permutation ciphers - grid transformation
+* enigma - substitution cipher used by nazis
+* data encryption standard - binary keys
+* advanced encryption standard - makes brute force attacks harder
+    * balances performance and security
+* key exchange
+    * an algorithm that lets two computers agree on a key without sending one
+    * mixed paints example
+* diffie helman key exchange
+    * base and modulus are public values
+    * public key lets you encrypt, not decrypt
+* rsa
+
 ## How to Web Scrape with Python
 * automatically access and extract a large amount of data from a website
 * Important notes

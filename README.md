@@ -1,5 +1,21 @@
 # 401-Readings
 
+## Python RegEx
+* Identify if a pattern exists in a given set of characters
+* Help manipulate textual data
+* Import re at top of python page to use regex library
+* When a special character matches as much of the search string as possible, it is said to be a "Greedy Match"
+* non-greedy matches as little text as possible
+* The jist of it - helps you find chunks of code that you might want to filter out???
+
+## shutil - High Level File Operations
+* copy files
+* copy file metadata
+* work with tree directories
+* find files
+* archives
+* file system space
+
 ## Caesar Cipher
 * simple and widely known encryption technique
 * letter is shifted 3 to the left

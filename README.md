@@ -1,5 +1,28 @@
 # 401-Readings
 
+## Getting Started with Django
+* Object-relational mapper
+   * Write data models in Python, or use SQL if needed
+* URLs and Views
+   * import path to create url paths for web page
+* Templates
+   * Can template like we did in JS. That is write code directly into an HTML file
+* Forms
+   * validate user data and convert it to Python types
+* Authentication 
+   * Users can create accounts to safely log in and out
+* Admin
+   * Helps manage content on site for developers
+* Internationalization
+   * Translate!!
+* Security 
+ * Provides protection against clickjacking, cross-site scripting,cross site request forgery (CSRF), SQL injection, remote code execution
+
+## How Django Works Behind the Scenes
+* Python based web-framework
+* open-source
+* DSF supports and maintains Django - Django Software Foundation
+
 ## Python RegEx
 * Identify if a pattern exists in a given set of characters
 * Help manipulate textual data

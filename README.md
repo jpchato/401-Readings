@@ -1,5 +1,22 @@
 # 401-Readings
 
+## Django: Using Models
+* database models
+* Django allows you to define relationships that are one to one (OneToOneField), one to many (ForeignKey) and many to many (ManyToManyField).
+* defined in modelys.py file
+* example of a field `my_field_name = models.CharField(max_length=20, help_text='Enter field documentation')`
+  * A model can have any amount of fields, of any type — each field represents a column we want to store in our database 
+* In every model the method __str__() should be defined 
+
+## Django Admin
+* Admin application allows you to update parts of website using models (CRUD)
+* Create a superuser `python3 manage.py createsuperuser`
+* log in using the admin url `/admin URL (e.g. http://127.0.0.1:8000/admin)`
+* CRUD access in Django GUI
+* Add new column to website with add, update fields as necessary
+* Instances of an item are unique from the main category but are based on the main category.
+
+
 ## Getting Started with Django
 * Object-relational mapper
    * Write data models in Python, or use SQL if needed

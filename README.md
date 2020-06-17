@@ -1,5 +1,14 @@
 # 401-Readings
 
+## Django Forms
+* Collect information from a user for submission to a server
+* flexible tool for collecting info from user because it can collect diferent types of data
+* relatively secure way of sharing data with server because it sends data in a `POST` request with cross-site forgery protection
+* django provides a framework that lets you define fields programatically 
+* 
+
+
+
 ## Django: Using Models
 * database models
 * Django allows you to define relationships that are one to one (OneToOneField), one to many (ForeignKey) and many to many (ManyToManyField).

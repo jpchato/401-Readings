@@ -1,5 +1,13 @@
 # 401-Readings
 
+## Django Custom User Model
+* Always use a custom user model for new django projects
+* create a directory for users
+* DO NOT MIGRATE, YET
+* in settings.py create a new CustomUser model
+* create new UserCreation and UserChangeForm
+* Custom user model allows you to add aditional fields at any time
+
 ## Django Forms
 * Collect information from a user for submission to a server
 * flexible tool for collecting info from user because it can collect diferent types of data

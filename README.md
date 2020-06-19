@@ -1,5 +1,15 @@
 # 401-Readings
 
+## Hash Table
+* Two main components: key and value
+* Used to store data
+* Way to implement an associative array
+* Hash function takes a key value and output is an index number
+* Create a linked list off of index values if a key has shares an index
+* hash- a hash is the result of some algorithm taking an incoming string and converting it int oa value that could be used for either security or some other purpose. In the case of a hashtable, it is used to determine the index of the array.
+* buckets - a bucket is what is contained in each index of the array of the hashtable. Each index is a bucket. An idnexcould potentially contain multiple key/value pairs if a collision occurs
+* collisions - a collision is what happens when more than one key gets hashed to the same location of the hashtable
+
 ## Django Custom User Model
 * Always use a custom user model for new django projects
 * create a directory for users

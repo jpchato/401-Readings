@@ -1,5 +1,21 @@
 # 401-Readings
 
+## Docker
+* A way to isolate and run entire applications
+* No need for virtual environments with docker
+* Docker is a way to implement linux containers which are a type of virtualization
+* python venvs are limited compared to docker containres
+* dockerfile is a list of instructions for creating an image
+* images are made up of one or more layers
+* containers are a running instance of an image
+
+## Django APIs
+* Django REST Framework works alongside Django web framework to create web APIs
+* Added after django has been installed and configured
+* Djnago creates websites containing webpages while Django REST Framework creates web APIs which are a collection of URL endpoints containing available HTTP verbs that return JSON
+* django rest frame work added to INSTALLED_APPS as `'rest_framework'` after `poetry add djangorestframeowrk==3.11.0`
+* 
+
 ## Hash Table
 * Two main components: key and value
 * Used to store data

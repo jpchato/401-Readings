@@ -1,5 +1,13 @@
 # 401-Readings
 
+## Permissions
+* permissions determine whether a request should be granted or denied access
+* permission checks are run at the start of the view before other code has proceeded
+* permissions grant or deny access for different classes of users to different parts of the api
+* permission policy is in settings under `REST_FRAMEWORK`
+* 
+
+
 ## Docker
 * A way to isolate and run entire applications
 * No need for virtual environments with docker

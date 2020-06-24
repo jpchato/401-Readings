@@ -1,5 +1,26 @@
 # 401-Readings
 
+## JSON Web Tokens and DRF JWT
+* JWT - JSON web token is a compact and self-contained way for transmitting information The information can be verified and trusted because it is digitally signed
+* jwt should be used for authorization and information exchange
+* jwt format -  `xxx.yyy.zzz` - header.payload.signature
+* jst has an access and a refresh token
+* the access token is short-lived and the refresh token last about 24 hours
+* They are received when correct username and pw are supplied
+* `poetry add djangorestframework_simplejwt`
+* update urls.py with 
+  * '''
+   from django.urls import path
+from rest_framework_simplejwt import views as jwt_views
+
+urlpatterns = [
+    path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
+]
+'''
+* the refresh token is necesary to ensure the user still has the correct permissions
+* 
+
 ## Permissions
 * permissions determine whether a request should be granted or denied access
 * permission checks are run at the start of the view before other code has proceeded

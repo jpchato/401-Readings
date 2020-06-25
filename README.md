@@ -1,5 +1,20 @@
 # 401-Readings
 
+## SSH Tutorial
+* remote administration protocol that allows users to control and modify their remote servers over the Internet
+* Secure Shell
+* Symmetric encryption is a form of encryption where a secret key is used for both encryption and decryption of a message by both the client and the host
+* asymmetrical encryption uses two separate keys for encryption and decryption
+* hashing generates a unique value of a fixed length for each input that shows no clear trend which can exploited which makes it impossible to reverse
+* SSH works by making use of a client-server model to allow for authentication of two remote systems and encryption of the data that passes between them
+
+## Django Configurations
+* Keep settings in environment variables
+* Write default values for production configuration (excluding secret keys and tokens)
+* Don’t hardcode sensitive settings, and don’t put them in VCS
+* Split settings into groups: Django, third-party, project
+* Follow naming conventions for custom (project) settings
+
 ## JSON Web Tokens and DRF JWT
 * JWT - JSON web token is a compact and self-contained way for transmitting information The information can be verified and trusted because it is digitally signed
 * jwt should be used for authorization and information exchange

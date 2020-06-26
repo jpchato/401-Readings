@@ -1,5 +1,24 @@
 # 401-Readings
 
+# Graphs
+* graph is a non-linear data structure that is a collection of vertices(nodes) connected by line segments called edges
+* vertex- a data object tha can have zero or more adjacent vertices, also called a node
+* an edge is a connection between two nodes
+* the neighbors of a node are its adjacent nodes(connected via an edge)
+* the degree of a vertex is the number edges connected to that vertex
+* an undirected graph is a graph where each edge is undirectional or bidirectional. This means the undirected graph does not move in any direction
+* a directed graph(digraph) is a graph where ever edge is directed. Each node is directed at another node with a specific requriement of what node should be referenced next
+* a complete graph is when all nodes are connected to other nodes
+* a connected graph is when all vertices have at least one edge
+* a disconnected graph(DAG) is where some vertices may not have edges
+* an acyclic graph is a directed graph without cycles. A cycle is when a node can be traversed through and potentially end up back at itself
+* cyclic graphs are graphs that have cycles. A cycle is a path of a positive length that starts and ends at the same vertix
+* graphs are represented through adjacency matrix and adjacency list
+* an adjacency matrix is represented through a 2-d array
+* adjacency list - most common way to represent graphs. A collection of linked lists or array that lists all of the other vertices that are connected
+* weighted graphs - numbers assigned to its edges. the numbers are called weights
+* 
+
 ## SSH Tutorial
 * remote administration protocol that allows users to control and modify their remote servers over the Internet
 * Secure Shell

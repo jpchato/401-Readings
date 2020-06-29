@@ -1,5 +1,30 @@
 # 401-Readings
 
+# DSA Review
+* Communicate
+ * Restate the question
+ * ask about edge cases
+ * ask about test cases
+ * write pseudocode and ask if it makes sense
+ * write the actual code and ask if it looks good
+ * ask for help if stuck
+* 7 tips
+ 1. take a few minutes to think through the problem without talking
+  * don't force yourself to fill the silence immediately, think through it but communicate why you're silent
+ 2. write down the steps of the solution
+  * write down general steps of how you will solve the problem
+ 3. write pseudocode first
+  * write the pseudocode before the actual code
+ 4. don't sweat the small stuff
+  * don't sweat syntax, big picture is more important here - problem solving, communiation, humanity
+ 5. sit down be humble
+  * accept criticism gracefully
+ 6. come prepared
+  * practice practice practice
+ 7. review your work
+  * algorithmic efficency
+  * correctness
+
 # Graphs
 * graph is a non-linear data structure that is a collection of vertices(nodes) connected by line segments called edges
 * vertex- a data object tha can have zero or more adjacent vertices, also called a node

@@ -1,5 +1,17 @@
 # 401-Readings
 
+# ES6 and React
+* jsx produces React elements
+* React separates concerns with loosely coupled components that combine markup and logic
+* React doesn't requrie JSX
+* React elements are plain objects 
+* conceptually, components are like JS functions
+* you can also use es6 class to define a component
+* you can convert a function component to a class
+* React events are named using camelcase
+* with jsx you pass a function as the event handler, instead of a string
+* 
+
 # DSA Review
 * Communicate
  * Restate the question

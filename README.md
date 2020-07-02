@@ -1,5 +1,30 @@
 # 401-Readings
 
+# Next.js
+* React Framework
+* intuitive page-based routing system
+* pre-rendering, ssg(statig-generation), ssr(server-side rendering) are all supported
+* automatic code splitting for faster page loads
+* client-side routing with optimized prefetching???
+* built-in css and sass support
+* api routes to build api endpoints with serverless functions
+* npm init next-app nextjs-blog --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+* cd nextjs-blog
+* npm run dev
+
+
+# React Router
+* npm install react-router-dom
+* <Router></Router>
+* <Link to = "/"><Link>
+ * <Route path ="/about"></Route>
+ 
+# React Styling
+* Pass as a string as the className prop to add CSS classes to components
+* React can be used to power animations!
+* CSS classes are generally better for performance that inline styling
+
+
 # More React
 * conditional rendering
  * works the same way conditions work in JS

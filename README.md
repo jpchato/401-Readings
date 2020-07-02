@@ -1,5 +1,28 @@
 # 401-Readings
 
+# More React
+* conditional rendering
+ * works the same way conditions work in JS
+ * variables can be used to store elements
+ * jsx expressoins can be embedded by wrapping them in curly braces
+* lists and keys
+ * collections of elements can be built in jsx by using curly braces
+ * transforming arrays into lists of elements in react is nearly identical to js
+ * keys help react identify changes
+ * keys only make sense in the context of the surrounding array
+ * keys must be unique among siblings, however they do not need to be globally unique
+* forms
+ * form elements work a little differently in react than in html
+ * in react mutable state is typically kept in the state property of components and ONLY updated with `setState()`
+* lifting state
+ * if several componnets need to reflect the same changing data, the docs recommend lifting the shraed state up to the closest common ancestor
+ * sharing state is accomplished by moving it up to the closest ancestor of the components that need it. 
+ * there should be a single source of truth for any data that changes in a react app
+* composition vs inheritance
+ * use composition instead of inheritance???
+ * props and composition allow all the flexibiiliyt needed to customize a component's look and behavior, safely and effectively.
+ 
+
 # ES6 and React
 * jsx produces React elements
 * React separates concerns with loosely coupled components that combine markup and logic

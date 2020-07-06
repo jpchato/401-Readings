@@ -1,5 +1,34 @@
 # 401-Readings
 
+
+# Django Security
+* Cross site scripting protection
+ * Django templates protects against the majority of xss attacks
+ * Be careful storing html in the database
+* Cross site request forgery protection
+ * django has built-in protections against CSRF but it must be enabled
+* SQL injection protection
+ * django's querysets are protected from SQL injection
+* Clickjacking protection
+ * Django contains clickjacking protection, however you can turn it off if necessary
+* SSL/HTTPS
+ * Always better to deploy sites behind HTTPS because without it malicious network users can extract authentication credentials or other info transferred between and client and server (or even alter the data transferred)
+* Host header validation
+ * django uses the host header from the client to construct urls. Django validates host headers against allowed_hosts settings
+* Referrer policy
+ * by setting referrer policy you can help protect the privacy of users
+* Session security
+* User-uploaded content
+ * limit the size of uploads to prevent dos attacks
+
+
+
+
+# WebApp Security 
+* Most web app attacks happen through cross-site scripting and sql injection attacks.
+* Recommended security mechanisms: threat modeling, risk analysis, static analysis, digital signature
+* Technical security solutions: black box testing tools, white box testing tools, fuzzing, web app security scanners, web app firewalls, and password cracking tools
+
 # Next.js
 * React Framework
 * intuitive page-based routing system
@@ -15,9 +44,9 @@
 
 # React Router
 * npm install react-router-dom
-* <Router></Router>
-* <Link to = "/"><Link>
- * <Route path ="/about"></Route>
+* `<Router></Router>`
+* ` <Link to = "/"><Link>`
+ * `<Route path ="/about"></Route>`
  
 # React Styling
 * Pass as a string as the className prop to add CSS classes to components

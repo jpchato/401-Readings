@@ -1,5 +1,14 @@
 # 401-Readings
 
+# Next.js Deployment
+* Simplest way is to use the Vercel platform
+
+# ElephantSQL
+* Database coding language
+
+# Docker on Heroku
+* Seems much more complicated than next.js deployment
+
 
 # Django Security
 * Cross site scripting protection

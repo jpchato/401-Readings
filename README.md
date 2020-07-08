@@ -1,5 +1,29 @@
 # 401-Readings
 
+# Dunder Methods
+* predefined methods that can be used to enrich classes
+* __init__ sets up the object
+* __str__ informal or nicely printable string represenation of an object
+* __repr__ official string representation of an object
+* __len__ 
+* __getitem__
+* __reversed__
+* Dunder methods make classes more pythonic because they emulate builtin types with python-like behaviors
+
+# Iterators
+* Iterators provide a sequence interface to python objects that's memory efficient and pythonic
+* to suppor iteration, objects need to ipmletement the iterator protocol by providing the __iter__ and __next__ dunder methods
+* class-based iterators are one way to write iterable objects in python. 
+* iterators provide a common interface that allow the user to process every element of a container while being completely isolated from the container's internal structure
+ * sounds important but I have no idea what it means
+
+# Generators
+* use yield instead of return statement to pass data back to caller
+* when yield is invoked, it passes control back to the caller of the function --- TEMPORARILY
+* yield statement suspends the function and retains its local state
+* generator functions are syntactic sugar for writing objects that support the iterator protocol. Generators abstract away much of the boilerplate code needed when writing class-based iterators
+* using yield allows users to skip having to use the StopIteration call
+
 # Next.js Deployment
 * Simplest way is to use the Vercel platform
 

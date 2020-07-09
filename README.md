@@ -1,5 +1,14 @@
 # 401-Readings
 
+# SASS
+* install sass
+* sass allows you to use variables, nexsting, mixins, and inheritance. All of which aren't available on CSS
+* sass uses the $ variable to make something a variable
+* any css value that you want to reuse can be stored in a variable thanks to sass
+* sass lets users nest css selctors similarly to the html visual hierarchy
+* overly nested rules are frowned upon and make maintenance difficult
+* 
+
 # Dunder Methods
 * predefined methods that can be used to enrich classes
 * __init__ sets up the object
